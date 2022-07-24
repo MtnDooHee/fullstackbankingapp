@@ -24,9 +24,20 @@ In the Bad Bank project, we were tasked with creating an insecure banking applic
 
 ## Features
 
-This app features the full MERN stack of technologies. Thus it features a node.js server that sends data to a MongoDB server. It also includes API itegration that connects the front end to the back end. 
+As the project name implies, this capstone project utilizes the full suite of MERN technologies. There are these layers to this project:
+1. A node.js server that sends data to a MongoDB server
+2. API integration that allows a connection between the front and back end\
 
-This allows for the creation of a user using the username and password. It also includes Google authentication as a secondary method of authentication. Once an account is created, the user recieves a prompt telling them the account has been created successfully. Once the user has loged in, they can deposit, and withdraw and check their balance. If the user logs out and logs back in, the session is saved with the balance saved. There is also an Alldata page that will show all the users and their balances. In the future, I plan on adding money tranfer between users, and a profile picture. Then, I will allow the user deposit a check using a picture. 
+What these layers do is allow for a user to create their own account on this app using their username and password. After account creation, the users are given a confirmation prompt that their account has been created to improve the user experience. After a user has successfuly created their account, they are then able to deposit, withdraw, and check their balance. 
+
+Future potential features that I would like to add are:
+- User profile updates that are persistent
+- Check deposite by taking a picture of the check
+- Assignment of random account numbers to new accounts
+- Money transfer between users
+- Account types (checking/savings)
+- Roles
+
 
 ## Installation Guideline
 
